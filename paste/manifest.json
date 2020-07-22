@@ -1,0 +1,15 @@
+{
+
+  "manifest_version": 2,
+  "name": "Bug Reproduction - Paste from Background Script",
+  "version": "0.1",
+
+  "background": {
+    "scripts": ["background.js"]
+  },
+
+  "permissions": [
+      "clipboardWrite"
+  ]
+
+}
